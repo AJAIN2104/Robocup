@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RoboCup India 2026</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/robocup-logo-cropped.jpg" alt="RoboCup logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registration.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container text-center text-white py-5">
+            <h1 class="display-4 fw-bold mb-3">Contact Us</h1>
+            <p class="lead">We're Here to Help and Answer Your Questions</p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-phone fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Call Us</h5>
+                            <!-- TODO: Update with your actual phone number -->
+                            <p class="card-text">
+                                <strong>+91-9871663267</strong><br>
+                                <small>Monday to Friday, 9 AM to 6 PM IST</small>
+                            </p>
+                            <a href="tel:+919871663267" class="btn btn-primary btn-sm">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-envelope fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Email Us</h5>
+                            <!-- TODO: Update with your actual email address -->
+                            <p class="card-text">
+                                <strong>info@rcjindia.com</strong><br>
+                                <small>We respond within 24 hours</small>
+                            </p>
+                            <a href="mailto:info@rcjindia.com" class="btn btn-success btn-sm">
+                                <i class="fas fa-envelope"></i> Email Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-map-marker-alt fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title">Visit Us</h5>
+                            <!-- TODO: Update with your actual address -->
+                            <p class="card-text">
+                                <strong>Delhi NCR, India</strong><br>
+                                <small>For North India Regional Event</small>
+                            </p>
+                            <a href="https://maps.google.com" target="_blank" class="btn btn-danger btn-sm">
+                                <i class="fas fa-map"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="text-center mb-5">Send us a Message</h2>
+                    
+                    <form id="contactForm" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                            <div class="invalid-feedback">
+                                Please provide a name.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid email.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                            <div class="invalid-feedback">
+                                Please provide a phone number.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="schoolName" class="form-label">School/Organization Name</label>
+                            <input type="text" class="form-control" id="schoolName" name="schoolName">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
+                            <select class="form-select" id="subject" name="subject" required>
+                                <option value="">-- Select a subject --</option>
+                                <option value="registration">Registration Inquiry</option>
+                                <option value="technical">Technical Question</option>
+                                <option value="rules">Rules & Guidelines</option>
+                                <option value="sponsorship">Sponsorship Inquiry</option>
+                                <option value="feedback">General Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a subject.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            <div class="invalid-feedback">
+                                Please provide a message.
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+
+                    <div id="successMessage" class="alert alert-success d-none mt-3" role="alert">
+                        <i class="fas fa-check-circle"></i>
+                        <strong>Thank you!</strong> Your message has been sent successfully. We'll get back to you soon.
+                    </div>
+
+                    <div id="errorMessage" class="alert alert-danger d-none mt-3" role="alert">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <strong>Error!</strong> There was an issue sending your message. Please try again.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Follow Us on Social Media</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fab fa-instagram fa-4x text-danger mb-3"></i>
+                            <h5 class="card-title">Instagram</h5>
+                            <p class="card-text">Follow us for updates and competition highlights</p>
+                            <a href="https://www.instagram.com/p/DCgzBstOhyQ/?hl=en" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger">
+                                Open Instagram Post
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fab fa-instagram fa-4x text-danger mb-3"></i>
+                            <h5 class="card-title">Instagram Reel</h5>
+                            <p class="card-text">Watch updates and competition reels</p>
+                            <a href="https://www.instagram.com/reel/DMWWVCcMHmk/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger">
+                                Open Instagram Reel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fab fa-youtube fa-4x text-danger mb-3"></i>
+                            <h5 class="card-title">YouTube</h5>
+                            <p class="card-text">Watch RoboCup competition videos</p>
+                            <a href="https://www.youtube.com/watch?v=2KF54qaN-Cw" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger">
+                                Open YouTube Video
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>RoboCup India</h5>
+                    <p>Building the future of robotics education and competition in India.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50">About Us</a></li>
+                        <li><a href="events.html" class="text-white-50">Events</a></li>
+                        <li><a href="registration.html" class="text-white-50">Register</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+919871663267" class="text-white-50">+91-9871663267</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@rcjindia.com" class="text-white-50">info@rcjindia.com</a></p>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2026 RoboCup India. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Form validation and submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            
+            // Validate form
+            if (!this.checkValidity() === false) {
+                e.stopPropagation();
+            }
+            
+            this.classList.add('was-validated');
+            
+            // TODO: In a production environment, send this to your backend/email service
+            // For now, just show a success message
+            
+            if (this.checkValidity() !== false) {
+                // Show success message
+                document.getElementById('successMessage').classList.remove('d-none');
+                document.getElementById('errorMessage').classList.add('d-none');
+                
+                // Reset form
+                this.reset();
+                this.classList.remove('was-validated');
+                
+                // Hide success message after 5 seconds
+                setTimeout(() => {
+                    document.getElementById('successMessage').classList.add('d-none');
+                }, 5000);
+            }
+        });
+    </script>
+</body>
+</html>

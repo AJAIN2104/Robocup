@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+test-results/
+
+# Logs
+logs/
+*.log
+
+# Dependencies (if using local node_modules)
+node_modules/
+package-lock.json
+yarn.lock

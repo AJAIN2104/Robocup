@@ -1,0 +1,92 @@
+{
+  "website": {
+    "title": "RoboCup India 2026",
+    "tagline": "Robotics Competition & Education",
+    "description": "RoboCup Junior India - Leading robotics competition for students"
+  },
+  "organization": {
+    "name": "Indian RoboCup Junior Foundation",
+    "phone": "+91-9871663267",
+    "email": "info@rcjindia.com",
+    "website": "https://www.rcjindia.com",
+    "address": "Delhi NCR, India"
+  },
+  "colors": {
+    "primary": "#667eea",
+    "secondary": "#764ba2",
+    "success": "#28a745",
+    "danger": "#dc3545",
+    "warning": "#ffc107",
+    "info": "#17a2b8"
+  },
+  "events": {
+    "northIndia": {
+      "name": "North India Regional Selection",
+      "date": "October 3-4, 2026",
+      "location": "Delhi NCR",
+      "registrationDeadline": "September 28, 2026",
+      "registrationFee": "₹8,800 + taxes",
+      "maxTeamSize": 4,
+      "minTeamSize": 2
+    },
+    "national": {
+      "name": "National Championship - India",
+      "date": "January 2027",
+      "location": "Bengaluru, India (TBC)"
+    },
+    "international": {
+      "name": "RoboCup 2027 International",
+      "date": "June 17-21, 2027",
+      "location": "Nuremberg Exhibition Center, Germany",
+      "website": "https://2027.robocup.org"
+    }
+  },
+  "categories": [
+    {
+      "id": "rescue",
+      "name": "Rescue Line",
+      "icon": "🚨",
+      "description": "Navigate through hazardous environments and rescue victims"
+    },
+    {
+      "id": "soccer",
+      "name": "Soccer",
+      "icon": "⚽",
+      "description": "Build robots to play soccer autonomously"
+    },
+    {
+      "id": "onstage",
+      "name": "OnStage",
+      "icon": "🎭",
+      "description": "Create entertaining robotic performances"
+    }
+  ],
+  "ageGroups": [
+    {
+      "range": "9-13 years",
+      "eligibility": "Regional & National competitions only"
+    },
+    {
+      "range": "14-19 years",
+      "eligibility": "All competitions including International"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "https://www.instagram.com/rcjindia",
+    "youtube": "https://www.youtube.com/c/RoboCupIndia",
+    "facebook": "https://www.facebook.com/rcjindia",
+    "twitter": "https://twitter.com/rcjindia"
+  },
+  "registrationLinks": {
+    "official": "https://www.rcjindia.com",
+    "form1": "https://forms.gle/sYBVUSkucXU8S7BJA",
+    "form2": "https://forms.gle/TV1VHVw91mhnEFsA8"
+  },
+  "features": {
+    "enableCountdown": true,
+    "enableBlog": false,
+    "enableGallery": false,
+    "enableSponsors": false,
+    "enableTeamManagement": false
+  }
+}

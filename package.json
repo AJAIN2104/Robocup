@@ -1,0 +1,40 @@
+{
+  "name": "robocup-india-2026",
+  "version": "1.0.0",
+  "description": "Professional website for RoboCup India 2026 competition",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "dev": "http-server -p 8000 -c-1",
+    "build": "echo 'No build process required - use as-is'",
+    "test": "echo 'Run manual tests in browser'",
+    "deploy": "echo 'See README.md for deployment instructions'"
+  },
+  "keywords": [
+    "robocup",
+    "robotics",
+    "competition",
+    "india",
+    "education",
+    "stem"
+  ],
+  "author": "RoboCup India Foundation",
+  "license": "MIT",
+  "homepage": "https://www.rcjindia.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcjindia/website.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "sass": "^1.50.0",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "font-awesome": "^6.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

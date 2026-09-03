@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Rescue Line robot in a competition arena</title>
+  <desc id="desc">An autonomous rescue robot follows a bright line through a hazard course toward a rescue beacon.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10263b"/><stop offset="1" stop-color="#071019"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#203c4e"/><stop offset="1" stop-color="#0b1721"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6fbff"/><stop offset="1" stop-color="#8aa4b8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <path d="M0 380 900 300v320H0Z" fill="url(#floor)"/>
+  <g stroke="#31566b" stroke-width="3" opacity=".8"><path d="M0 470 900 390"/><path d="M0 550 900 470"/><path d="M160 360v260M360 340v280M570 320v300M770 305v315"/></g>
+  <path d="M75 525c185-70 248-28 335-84 88-56 112-135 226-137 72-2 135 25 206-38" fill="none" stroke="#f9c74f" stroke-width="15" stroke-linecap="round" filter="url(#glow)"/>
+  <g transform="translate(275 250)">
+    <rect x="0" y="58" width="250" height="135" rx="22" fill="#152b3b" stroke="#5f93aa" stroke-width="6"/>
+    <rect x="28" y="15" width="194" height="80" rx="18" fill="url(#metal)"/>
+    <rect x="50" y="31" width="150" height="37" rx="9" fill="#132537"/>
+    <circle cx="90" cy="49" r="12" fill="#68d9ff"/><circle cx="160" cy="49" r="12" fill="#ff5d5d"/>
+    <path d="M40 193h49l-10 35H24ZM181 193h45l20 35h-57Z" fill="#f9c74f"/>
+    <circle cx="45" cy="213" r="19" fill="#071019" stroke="#a9c1d0" stroke-width="7"/><circle cx="216" cy="213" r="19" fill="#071019" stroke="#a9c1d0" stroke-width="7"/>
+    <path d="M250 117h48v29h-48" fill="none" stroke="#ff5d5d" stroke-width="9"/><path d="M298 117v29" stroke="#ff5d5d" stroke-width="9"/>
+  </g>
+  <g transform="translate(720 150)"><path d="M0 110V0h100v110" fill="#eaf5fb" stroke="#8bb2c8" stroke-width="6"/><path d="M-18 110h136" stroke="#ff5d5d" stroke-width="14"/><circle cx="50" cy="54" r="17" fill="#ff5d5d" filter="url(#glow)"/><text x="50" y="145" text-anchor="middle" fill="#eaf5fb" font-family="sans-serif" font-size="18" font-weight="bold">RESCUE ZONE</text></g>
+  <text x="42" y="72" fill="#f9c74f" font-family="sans-serif" font-size="25" font-weight="bold" letter-spacing="4">AUTONOMOUS ARENA / 01</text>
+</svg>

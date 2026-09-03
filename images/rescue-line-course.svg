@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" role="img" aria-labelledby="title desc">
+  <title id="title">Rescue Line competition course</title>
+  <desc id="desc">Isometric view of a Rescue Line course with black route markings, ramps, obstacles and an autonomous robot.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f5f0"/><stop offset="1" stop-color="#c9c9bd"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d7d7cb"/><stop offset="1" stop-color="#9c9c91"/></linearGradient>
+    <linearGradient id="robot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc928"/><stop offset="1" stop-color="#d38300"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect width="900" height="530" fill="#fff"/>
+  <ellipse cx="468" cy="435" rx="350" ry="48" fill="#4c514d" opacity=".17" filter="url(#shadow)"/>
+  <path d="M65 270 485 125 844 276 390 452Z" fill="url(#back)" stroke="#85877f" stroke-width="3"/>
+  <path d="M65 270v30l325 181 454-176v-29L390 452Z" fill="url(#side)" stroke="#85877f" stroke-width="3"/>
+  <g stroke="#a7a89f" stroke-width="2" opacity=".8"><path d="m144 302 330-137M225 347l330-139M306 391l330-139M122 294l277 151M201 266l277 151M282 238l277 151M363 210l277 151M444 181l277 151M525 153l277 151"/></g>
+  <path d="M125 300c52 31 96 45 148 26 42-15 42-53 10-63-37-11-69 21-42 44 28 24 87 11 120-12 41-29 41-70 12-85-26-13-56 8-42 30 13 21 63 19 99 5 52-19 92-13 115 11 26 27 5 61-24 72-36 14-71-4-63-29 8-26 59-35 98-14 30 16 59 43 103 29 43-14 62-58 35-83" fill="none" stroke="#202522" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(497 245) rotate(-8)"><ellipse cx="33" cy="43" rx="43" ry="14" fill="#5a5b53" opacity=".3"/><path d="M0 16 30 0l40 14-29 20Z" fill="#ffcf24" stroke="#6f4b00" stroke-width="3"/><path d="m30 0 0 29 40 14V14Z" fill="#d18a00" stroke="#6f4b00" stroke-width="3"/><circle cx="16" cy="32" r="7" fill="#242b2b"/><circle cx="57" cy="46" r="7" fill="#242b2b"/><rect x="21" y="8" width="20" height="7" rx="3" fill="#202f38"/></g>
+  <g transform="translate(170 240)"><path d="M0 0h105v87H0Z" fill="#dadbd2" stroke="#74766d" stroke-width="3"/><path d="M0 0 38-24h105v87l-38 24H0Z" fill="#f1f1e8" stroke="#74766d" stroke-width="3"/><path d="M38-24v87" stroke="#74766d" stroke-width="3"/><circle cx="52" cy="27" r="6" fill="#242522"/><circle cx="88" cy="48" r="6" fill="#b3b5ae"/></g>
+  <g transform="translate(595 82)"><path d="M0 100 72 0h168v100Z" fill="#f0f0e8" stroke="#777a71" stroke-width="3"/><path d="M0 100v24h168v-24" fill="#d1d2c8" stroke="#777a71" stroke-width="3"/><path d="M72 0v100M130 0v100M204 0v100" stroke="#8a6a3d" stroke-width="8"/><path d="M20 83 72 18l110 0 35 65" fill="none" stroke="#242522" stroke-width="7"/></g>
+  <g transform="translate(330 125)"><path d="M0 0h96l55 62-96 35H0Z" fill="#eeeeE5" stroke="#7a7c74" stroke-width="3"/><path d="M0 0v27l55 62v-27Z" fill="#c6c7bd" stroke="#7a7c74" stroke-width="3"/><path d="M55 62 151 0v27L55 89Z" fill="#b7b8af" stroke="#7a7c74" stroke-width="3"/><path d="M22 18h57l38 43" fill="none" stroke="#202522" stroke-width="6"/></g>
+  <g fill="#ec7b2d" stroke="#91451d" stroke-width="2"><ellipse cx="300" cy="270" rx="11" ry="7"/><ellipse cx="638" cy="294" rx="11" ry="7"/><ellipse cx="445" cy="208" rx="11" ry="7"/></g>
+  <text x="50" y="60" fill="#17384a" font-family="sans-serif" font-size="25" font-weight="bold" letter-spacing="4">RESCUE LINE / COURSE MAP</text>
+</svg>
